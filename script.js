@@ -11,16 +11,11 @@ const keyWord1 = quotes[randomNum][1];
 const keyWord2 = quotes[randomNum][2];
 const keyWord3 = quotes[randomNum][3];
 
-const nounOne = 'frog';
-const nounTwo = 'goat';
-const verb = 'kick';
-
-/*
 const nounOne = document.getElementById(noun-one);
 const nounTwo = document.getElementById(noun-two);
 const verb = document.getElementById(verb);
 const button = document.getElementById(button);
-*/
+
 
 testSentence = testSentence.map(word => {
     if (word === keyWord1) {
