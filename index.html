@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mixed Messages Co-op</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Mixed Messages</h1>
+        <div class="wrapper">
+            <div class="column">
+                <label for="noun-one">Please type a noun.</label>
+                <br>
+                <input type="text" id="noun-one" name="noun-one" minlength="2" maxlength="10" size="10" required>
+            </div>
+            <div class="column">
+                <label for="noun-two">Please type another noun.</label>
+                <br>
+                <input type="text" id="noun-two" name="noun-two" minlength="2" maxlength="10" size="10" required>
+            </div>
+            <div class="column">
+                <label for="verb">Please type a verb.</label>
+                <br>
+                <input type="text" id="verb" name="verb" minlength="2" maxlength="10" size="10" required>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <br>
+            <br>
+        <button id="button">Click for a message</button>
+        <p id="silly-quote" hidden>Your silly quote: </p>
+        </div>
+        <script src="/script.js"></script>
+    </body>
+</html>
