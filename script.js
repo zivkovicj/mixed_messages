@@ -1,7 +1,9 @@
 const quotes = [
     ["Before you marry a person you should first make them use a computer with slow Internet service to see who they really are.","person","computer","marry"],
     ["If you find a good wife you’ll be happy If not you’ll become a philosopher","wife","philosopher","become"],
-    ["Adults are always asking children what they want to be when they grow up because they’re looking for ideas","children","ideas","looking"]
+    ["Adults are always asking children what they want to be when they grow up because they’re looking for ideas","children","ideas","looking"],
+    ["If you can't handle me at my worst, then you sure as hell don't deserve me at my best","me","hell","handle"],
+    ["You know you're in love when you can't sleep because reality is finally better than your dreams","reality","dreams","sleep"]
 ];
 
 const nounElem1 = document.getElementById('noun-one');
